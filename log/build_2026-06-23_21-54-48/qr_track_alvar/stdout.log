@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/qr_track_alvar/qr_track_alvar.egg-info/PKG-INFO
+writing dependency_links to ../../build/qr_track_alvar/qr_track_alvar.egg-info/dependency_links.txt
+writing entry points to ../../build/qr_track_alvar/qr_track_alvar.egg-info/entry_points.txt
+writing requirements to ../../build/qr_track_alvar/qr_track_alvar.egg-info/requires.txt
+writing top-level names to ../../build/qr_track_alvar/qr_track_alvar.egg-info/top_level.txt
+reading manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+writing manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/decodeimg.py to decodeimg.cpython-310.pyc
+byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/qr_track_alvar.py to qr_track_alvar.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/qr_track_alvar/qr_track_alvar.egg-info to /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing qr_track_alvar script to /home/turtlebot4/training_code/install/qr_track_alvar/lib/qr_track_alvar
+writing list of installed files to '/home/turtlebot4/training_code/build/qr_track_alvar/install.log'

@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /home/turtlebot4/training_code/build/turtlebot4_msgs/turtlebot4_msgs__rs
+# Build directory: /home/turtlebot4/training_code/build/turtlebot4_msgs/turtlebot4_msgs__rs
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.

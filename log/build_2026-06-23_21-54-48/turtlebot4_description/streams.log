@@ -1,0 +1,57 @@
+[0.610s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_description': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_description -- -j8 -l8
+[0.653s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.927s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.998s] -- Found irobot_create_description: 2.1.0 (/opt/ros/humble/share/irobot_create_description/cmake)
+[0.998s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.153s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.158s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.159s] -- Added test 'lint_cmake' to check CMake code style
+[1.160s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.163s] -- Added test 'xmllint' to check XML markup files
+[1.164s] -- Configuring done
+[1.173s] -- Generating done
+[1.177s] -- Build files have been written to: /home/turtlebot4/training_code/build/turtlebot4_description
+[1.232s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_description -- -j8 -l8
+[1.255s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_description': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_description
+[1.270s] -- Install configuration: ""
+[1.270s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/launch
+[1.271s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[1.271s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[1.272s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/lite
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors
+[1.273s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/standard
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.274s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[1.275s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[1.275s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[1.275s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[1.275s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[1.276s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[1.276s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[1.276s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[1.277s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[1.278s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[1.278s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[1.284s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[1.285s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[1.285s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[1.285s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[1.285s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[1.286s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_description

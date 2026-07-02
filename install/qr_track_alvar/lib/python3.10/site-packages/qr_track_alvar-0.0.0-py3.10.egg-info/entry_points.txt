@@ -1,0 +1,3 @@
+[console_scripts]
+qr_track_alvar = qr_track_alvar.qr_track_alvar:main
+

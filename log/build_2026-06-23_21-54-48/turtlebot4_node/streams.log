@@ -1,0 +1,124 @@
+[0.020s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtlebot4/training_code/src/turtlebot4_node -DCMAKE_INSTALL_PREFIX=/home/turtlebot4/training_code/install/turtlebot4_node
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.233s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.529s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.535s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.855s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.043s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.126s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.136s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.154s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.301s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.307s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.475s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.529s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.633s] -- Looking for pthread.h
+[1.777s] -- Looking for pthread.h - found
+[1.778s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.918s] -- Found Threads: TRUE  
+[2.036s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.111s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[2.130s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.198s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[2.242s] -- Found turtlebot4_msgs: 1.0.5 (/home/turtlebot4/training_code/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[2.277s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.453s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.454s] -- Configured cppcheck include dirs: /home/turtlebot4/training_code/src/turtlebot4_node/include
+[2.454s] -- Configured cppcheck exclude dirs and/or files: 
+[2.456s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.456s] -- Configured cpplint exclude dirs and/or files: 
+[2.457s] -- Added test 'lint_cmake' to check CMake code style
+[2.460s] -- Added test 'uncrustify' to check C / C++ code style
+[2.460s] -- Configured uncrustify additional arguments: 
+[2.461s] -- Added test 'xmllint' to check XML markup files
+[2.465s] -- Configuring done
+[2.500s] -- Generating done
+[2.512s] -- Build files have been written to: /home/turtlebot4/training_code/build/turtlebot4_node
+[2.539s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/turtlebot4/training_code/src/turtlebot4_node -DCMAKE_INSTALL_PREFIX=/home/turtlebot4/training_code/install/turtlebot4_node
+[2.542s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_node -- -j8 -l8
+[2.589s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.862s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.917s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.921s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.932s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.034s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.036s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.325s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.382s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.398s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.452s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[3.490s] -- Found turtlebot4_msgs: 1.0.5 (/home/turtlebot4/training_code/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[3.516s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.688s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.688s] -- Configured cppcheck include dirs: /home/turtlebot4/training_code/src/turtlebot4_node/include
+[3.688s] -- Configured cppcheck exclude dirs and/or files: 
+[3.690s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.690s] -- Configured cpplint exclude dirs and/or files: 
+[3.691s] -- Added test 'lint_cmake' to check CMake code style
+[3.693s] -- Added test 'uncrustify' to check C / C++ code style
+[3.693s] -- Configured uncrustify additional arguments: 
+[3.694s] -- Added test 'xmllint' to check XML markup files
+[3.696s] -- Configuring done
+[3.730s] -- Generating done
+[3.743s] -- Build files have been written to: /home/turtlebot4/training_code/build/turtlebot4_node
+[3.802s] gmake[2]: Warning: File '/home/turtlebot4/training_code/src/turtlebot4_node/src/main.cpp' has modification time 23940 s in the future
+[3.816s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o[0m
+[3.816s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o[0m
+[3.816s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o[0m
+[3.816s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o[0m
+[3.817s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o[0m
+[58.445s] [ 75%] [32m[1mLinking CXX static library libturtlebot4_node_lib.a[0m
+[59.975s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[59.992s] [ 75%] Built target turtlebot4_node_lib
+[60.015s] gmake[2]: Warning: File '/home/turtlebot4/training_code/src/turtlebot4_node/src/main.cpp' has modification time 23883 s in the future
+[60.029s] [ 87%] [32mBuilding CXX object CMakeFiles/turtlebot4_node.dir/src/main.cpp.o[0m
+[71.412s] [100%] [32m[1mLinking CXX executable turtlebot4_node[0m
+[76.629s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[76.645s] [100%] Built target turtlebot4_node
+[76.667s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_node -- -j8 -l8
+[76.670s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_node
+[76.683s] -- Install configuration: ""
+[76.683s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[76.722s] -- Set runtime path of "/home/turtlebot4/training_code/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node" to ""
+[76.722s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include
+[76.722s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node
+[76.722s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[76.723s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[76.724s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[76.724s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[76.724s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[76.724s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[76.725s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[76.725s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[76.725s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[76.726s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[76.726s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[76.726s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[76.726s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[76.727s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[76.727s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.727s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[76.727s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[76.728s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[76.732s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_node

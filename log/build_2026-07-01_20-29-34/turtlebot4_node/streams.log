@@ -1,0 +1,35 @@
+[0.017s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_node -- -j8 -l8
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_node_lib[0m
+[0.160s] [ 75%] Built target turtlebot4_node_lib
+[0.186s] [35m[1mConsolidate compiler generated dependencies of target turtlebot4_node[0m
+[0.224s] [100%] Built target turtlebot4_node
+[0.243s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_node -- -j8 -l8
+[0.246s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_node
+[0.259s] -- Install configuration: ""
+[0.260s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[0.260s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include
+[0.260s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node
+[0.260s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[0.261s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[0.262s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[0.263s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.263s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[0.264s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[0.264s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[0.267s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs:/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble LD_LIBRARY_PATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/turtlebot4/training_code/install/turtlebot4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_node

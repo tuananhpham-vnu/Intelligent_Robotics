@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/qr_track_alvar/qr_track_alvar.egg-info/PKG-INFO
+../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt
+../../build/qr_track_alvar/qr_track_alvar.egg-info/dependency_links.txt
+../../build/qr_track_alvar/qr_track_alvar.egg-info/entry_points.txt
+../../build/qr_track_alvar/qr_track_alvar.egg-info/requires.txt
+../../build/qr_track_alvar/qr_track_alvar.egg-info/top_level.txt
+../../build/qr_track_alvar/qr_track_alvar.egg-info/zip-safe
+qr_track_alvar/__init__.py
+qr_track_alvar/decodeimg.py
+qr_track_alvar/qr_track_alvar.py
+resource/qr_track_alvar
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

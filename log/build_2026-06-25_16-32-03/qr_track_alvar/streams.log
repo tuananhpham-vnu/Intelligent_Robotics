@@ -1,0 +1,23 @@
+[2.420s] Invoking command in '/home/turtlebot4/training_code/src/qr_track_alvar': PYTHONPATH=/home/turtlebot4/training_code/build/qr_track_alvar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qr_track_alvar build --build-base /home/turtlebot4/training_code/build/qr_track_alvar/build install --record /home/turtlebot4/training_code/build/qr_track_alvar/install.log --single-version-externally-managed install_data
+[2.993s] running egg_info
+[2.996s] writing ../../build/qr_track_alvar/qr_track_alvar.egg-info/PKG-INFO
+[2.997s] writing dependency_links to ../../build/qr_track_alvar/qr_track_alvar.egg-info/dependency_links.txt
+[2.997s] writing entry points to ../../build/qr_track_alvar/qr_track_alvar.egg-info/entry_points.txt
+[2.997s] writing requirements to ../../build/qr_track_alvar/qr_track_alvar.egg-info/requires.txt
+[2.997s] writing top-level names to ../../build/qr_track_alvar/qr_track_alvar.egg-info/top_level.txt
+[3.000s] reading manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+[3.002s] writing manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+[3.003s] running build
+[3.003s] running build_py
+[3.007s] running install
+[3.007s] running install_lib
+[3.011s] byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/decodeimg.py to decodeimg.cpython-310.pyc
+[3.015s] byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/qr_track_alvar.py to qr_track_alvar.cpython-310.pyc
+[3.018s] running install_data
+[3.018s] running install_egg_info
+[3.023s] removing '/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar-0.0.0-py3.10.egg-info' (and everything under it)
+[3.024s] Copying ../../build/qr_track_alvar/qr_track_alvar.egg-info to /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar-0.0.0-py3.10.egg-info
+[3.028s] running install_scripts
+[3.078s] Installing qr_track_alvar script to /home/turtlebot4/training_code/install/qr_track_alvar/lib/qr_track_alvar
+[3.079s] writing list of installed files to '/home/turtlebot4/training_code/build/qr_track_alvar/install.log'
+[3.195s] Invoked command in '/home/turtlebot4/training_code/src/qr_track_alvar' returned '0': PYTHONPATH=/home/turtlebot4/training_code/build/qr_track_alvar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qr_track_alvar build --build-base /home/turtlebot4/training_code/build/qr_track_alvar/build install --record /home/turtlebot4/training_code/build/qr_track_alvar/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+{
+  "package_name": "turtlebot4_msgs",
+  "non_idl_tuples": [
+    "/home/turtlebot4/training_code/src/turtlebot4_msgs:msg/UserLed.msg",
+    "/home/turtlebot4/training_code/src/turtlebot4_msgs:msg/UserButton.msg",
+    "/home/turtlebot4/training_code/src/turtlebot4_msgs:msg/UserDisplay.msg"
+  ]
+}

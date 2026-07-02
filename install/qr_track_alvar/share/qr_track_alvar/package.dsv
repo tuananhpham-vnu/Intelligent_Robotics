@@ -1,0 +1,6 @@
+source;share/qr_track_alvar/hook/pythonpath.ps1
+source;share/qr_track_alvar/hook/pythonpath.dsv
+source;share/qr_track_alvar/hook/pythonpath.sh
+source;share/qr_track_alvar/hook/ament_prefix_path.ps1
+source;share/qr_track_alvar/hook/ament_prefix_path.dsv
+source;share/qr_track_alvar/hook/ament_prefix_path.sh

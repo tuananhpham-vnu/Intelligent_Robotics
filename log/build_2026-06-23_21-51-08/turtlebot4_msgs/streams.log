@@ -1,0 +1,94 @@
+[0.047s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_msgs -- -j8 -l8
+[0.622s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.623s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.623s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.624s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.626s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.062s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.899s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.946s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.990s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.991s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.991s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.017s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.020s] -- Added test 'lint_cmake' to check CMake code style
+[2.021s] -- Added test 'xmllint' to check XML markup files
+[2.029s] -- Configuring done
+[2.091s] -- Generating done
+[2.114s] -- Build files have been written to: /home/turtlebot4/training_code/build/turtlebot4_msgs
+[2.165s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.182s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.206s] [  4%] Built target ament_cmake_python_copy_turtlebot4_msgs
+[2.725s] running egg_info
+[2.726s] creating turtlebot4_msgs.egg-info
+[2.727s] writing turtlebot4_msgs.egg-info/PKG-INFO
+[2.728s] writing dependency_links to turtlebot4_msgs.egg-info/dependency_links.txt
+[2.728s] writing top-level names to turtlebot4_msgs.egg-info/top_level.txt
+[2.728s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[2.733s] reading manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[2.734s] writing manifest file 'turtlebot4_msgs.egg-info/SOURCES.txt'
+[2.795s] [  4%] Built target ament_cmake_python_build_turtlebot4_msgs_egg
+[3.101s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__functions.c.o[0m
+[3.101s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__functions.c.o[0m
+[3.101s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__functions.c.o[0m
+[3.102s] [ 10%] Built target turtlebot4_msgs__cpp
+[3.120s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.120s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.121s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.200s] [ 19%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_generator_c.so[0m
+[3.262s] [ 19%] Built target turtlebot4_msgs__rosidl_generator_c
+[3.281s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.281s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.282s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.906s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[3.911s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[3.924s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[3.957s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_led__type_support.cpp.o[0m
+[4.055s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_led__type_support.cpp.o[0m
+[4.093s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[4.157s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[4.199s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_led__type_support_c.cpp.o[0m
+[4.219s] [ 46%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o[0m
+[4.220s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[4.279s] [ 48%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_c.so[0m
+[4.350s] [ 51%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o[0m
+[4.387s] [ 51%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[4.432s] [ 53%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o[0m
+[4.462s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_button__type_support_c.cpp.o[0m
+[4.522s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_display__type_support_c.cpp.o[0m
+[4.531s] [ 59%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.580s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_button__type_support.cpp.o[0m
+[4.598s] [ 61%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[4.614s] [ 63%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_display__type_support.cpp.o[0m
+[4.676s] [ 65%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_cpp.so[0m
+[4.754s] [ 65%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[4.771s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_button__type_support.cpp.o[0m
+[4.833s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_display__type_support.cpp.o[0m
+[5.394s] [ 72%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.525s] [ 74%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.534s] [ 74%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[5.653s] [ 74%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[5.690s] [ 76%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.813s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[5.833s] gmake[2]: Warning: File '/home/turtlebot4/training_code/src/turtlebot4_msgs/msg/UserLed.msg' has modification time 24155 s in the future
+[5.834s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.846s] [ 76%] Built target turtlebot4_msgs
+[5.881s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.273s] [ 78%] Built target turtlebot4_msgs__py
+[7.307s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o[0m
+[7.307s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o[0m
+[7.307s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o[0m
+[7.532s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/libturtlebot4_msgs__rosidl_generator_py.so[0m
+[7.597s] [ 87%] Built target turtlebot4_msgs__rosidl_generator_py
+[7.632s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.632s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.632s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.818s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.818s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.828s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[7.874s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext
+[7.874s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_c__pyext
+[7.889s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext

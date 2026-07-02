@@ -1,0 +1,1 @@
+Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_description': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake /home/turtlebot4/training_code/src/turtlebot4_description -DCMAKE_INSTALL_PREFIX=/home/turtlebot4/training_code/install/turtlebot4_description

@@ -1,0 +1,21 @@
+[2.110s] Invoking command in '/home/turtlebot4/training_code/src/path_node': PYTHONPATH=/home/turtlebot4/training_code/build/path_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_node build --build-base /home/turtlebot4/training_code/build/path_node/build install --record /home/turtlebot4/training_code/build/path_node/install.log --install-scripts $base/lib/path_node --single-version-externally-managed install_data
+[2.643s] running egg_info
+[2.648s] writing ../../build/path_node/path_node.egg-info/PKG-INFO
+[2.651s] writing dependency_links to ../../build/path_node/path_node.egg-info/dependency_links.txt
+[2.652s] writing entry points to ../../build/path_node/path_node.egg-info/entry_points.txt
+[2.653s] writing requirements to ../../build/path_node/path_node.egg-info/requires.txt
+[2.654s] writing top-level names to ../../build/path_node/path_node.egg-info/top_level.txt
+[2.663s] reading manifest file '../../build/path_node/path_node.egg-info/SOURCES.txt'
+[2.666s] writing manifest file '../../build/path_node/path_node.egg-info/SOURCES.txt'
+[2.667s] running build
+[2.667s] running build_py
+[2.669s] running install
+[2.670s] running install_lib
+[2.676s] running install_data
+[2.677s] running install_egg_info
+[2.684s] removing '/home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages/path_node-0.0.0-py3.10.egg-info' (and everything under it)
+[2.689s] Copying ../../build/path_node/path_node.egg-info to /home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages/path_node-0.0.0-py3.10.egg-info
+[2.693s] running install_scripts
+[2.744s] Installing path_node script to /home/turtlebot4/training_code/install/path_node/lib/path_node
+[2.745s] writing list of installed files to '/home/turtlebot4/training_code/build/path_node/install.log'
+[2.852s] Invoked command in '/home/turtlebot4/training_code/src/path_node' returned '0': PYTHONPATH=/home/turtlebot4/training_code/build/path_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/path_node build --build-base /home/turtlebot4/training_code/build/path_node/build install --record /home/turtlebot4/training_code/build/path_node/install.log --install-scripts $base/lib/path_node --single-version-externally-managed install_data

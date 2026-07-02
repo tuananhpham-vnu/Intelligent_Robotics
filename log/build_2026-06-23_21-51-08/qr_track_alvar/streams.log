@@ -1,0 +1,19 @@
+[1.429s] Invoking command in '/home/turtlebot4/training_code/src/qr_track_alvar': PYTHONPATH=/home/turtlebot4/training_code/build/qr_track_alvar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qr_track_alvar build --build-base /home/turtlebot4/training_code/build/qr_track_alvar/build install --record /home/turtlebot4/training_code/build/qr_track_alvar/install.log --single-version-externally-managed install_data
+[1.950s] running egg_info
+[1.951s] writing ../../build/qr_track_alvar/qr_track_alvar.egg-info/PKG-INFO
+[1.952s] writing dependency_links to ../../build/qr_track_alvar/qr_track_alvar.egg-info/dependency_links.txt
+[1.952s] writing entry points to ../../build/qr_track_alvar/qr_track_alvar.egg-info/entry_points.txt
+[1.952s] writing requirements to ../../build/qr_track_alvar/qr_track_alvar.egg-info/requires.txt
+[1.952s] writing top-level names to ../../build/qr_track_alvar/qr_track_alvar.egg-info/top_level.txt
+[1.955s] package init file 'qr_track_alvar/__init__.py' not found (or not a regular file)
+[1.956s] reading manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+[1.958s] writing manifest file '../../build/qr_track_alvar/qr_track_alvar.egg-info/SOURCES.txt'
+[1.958s] running build
+[1.958s] running build_py
+[1.961s] running install
+[1.962s] running install_lib
+[1.965s] byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/decodeimg.py to decodeimg.cpython-310.pyc
+[1.966s] byte-compiling /home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages/qr_track_alvar/qr_track_alvar.py to qr_track_alvar.cpython-310.pyc
+[1.967s] running install_data
+[1.967s] error: can't copy 'resource/qr_track_alvar': doesn't exist or not a regular file
+[2.022s] Invoked command in '/home/turtlebot4/training_code/src/qr_track_alvar' returned '1': PYTHONPATH=/home/turtlebot4/training_code/build/qr_track_alvar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/qr_track_alvar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qr_track_alvar build --build-base /home/turtlebot4/training_code/build/qr_track_alvar/build install --record /home/turtlebot4/training_code/build/qr_track_alvar/install.log --single-version-externally-managed install_data

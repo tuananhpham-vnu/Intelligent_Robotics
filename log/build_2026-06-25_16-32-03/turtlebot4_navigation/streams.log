@@ -1,0 +1,61 @@
+[1.385s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_navigation -- -j8 -l8
+[1.432s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.864s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.024s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.028s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.029s] -- Added test 'lint_cmake' to check CMake code style
+[2.029s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.032s] -- Added test 'xmllint' to check XML markup files
+[2.035s] -- Configuring done
+[2.048s] -- Generating done
+[2.053s] -- Build files have been written to: /home/turtlebot4/training_code/build/turtlebot4_navigation
+[2.126s] Built target ament_cmake_python_copy_turtlebot4_navigation
+[2.754s] running egg_info
+[2.756s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[2.756s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[2.759s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[2.770s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[2.773s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[2.881s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[2.902s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --build /home/turtlebot4/training_code/build/turtlebot4_navigation -- -j8 -l8
+[2.911s] Invoking command in '/home/turtlebot4/training_code/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_navigation
+[2.933s] -- Install configuration: ""
+[2.934s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/config
+[2.934s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[2.934s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[2.934s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[2.934s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/launch
+[2.935s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[2.935s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[2.935s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[2.935s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/maps
+[2.935s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/map.pgm
+[2.936s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/map.yaml
+[2.936s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[2.936s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[2.936s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info
+[2.936s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/SOURCES.txt
+[2.936s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/PKG-INFO
+[2.937s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/dependency_links.txt
+[2.937s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/top_level.txt
+[2.937s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation
+[2.937s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[2.937s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py
+[3.017s] Listing '/home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation'...
+[3.032s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py
+[3.133s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[3.134s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[3.135s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[3.135s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[3.135s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[3.135s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[3.135s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[3.136s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[3.136s] -- Installing: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[3.136s] -- Up-to-date: /home/turtlebot4/training_code/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[3.143s] Invoked command in '/home/turtlebot4/training_code/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble /usr/bin/cmake --install /home/turtlebot4/training_code/build/turtlebot4_navigation

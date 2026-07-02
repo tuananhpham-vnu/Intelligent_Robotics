@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000827] (-) JobUnselected: {'identifier': 'qr_track_alvar'}
+[0.001172] (-) JobUnselected: {'identifier': 'turtlebot4_description'}
+[0.001462] (-) JobUnselected: {'identifier': 'turtlebot4_msgs'}
+[0.001717] (-) JobUnselected: {'identifier': 'turtlebot4_navigation'}
+[0.001803] (-) JobUnselected: {'identifier': 'turtlebot4_node'}
+[0.001881] (path_node) JobQueued: {'identifier': 'path_node', 'dependencies': OrderedDict()}
+[0.001951] (path_node) JobStarted: {'identifier': 'path_node'}
+[0.099335] (-) TimerEvent: {}
+[0.199870] (-) TimerEvent: {}
+[0.300398] (-) TimerEvent: {}
+[0.400943] (-) TimerEvent: {}
+[0.501458] (-) TimerEvent: {}
+[0.602005] (-) TimerEvent: {}
+[0.702624] (-) TimerEvent: {}
+[0.803227] (-) TimerEvent: {}
+[0.903744] (-) TimerEvent: {}
+[1.004282] (-) TimerEvent: {}
+[1.104795] (-) TimerEvent: {}
+[1.205334] (-) TimerEvent: {}
+[1.305858] (-) TimerEvent: {}
+[1.406382] (-) TimerEvent: {}
+[1.459451] (path_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/path_node', 'build', '--build-base', '/home/turtlebot4/training_code/build/path_node/build', 'install', '--record', '/home/turtlebot4/training_code/build/path_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/turtlebot4/training_code/src/path_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKSPACE_SETUP': '/opt/ros/humble/setup.bash', 'USER': 'turtlebot4', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/turtlebot4', 'CHROME_DESKTOP': 'code.desktop', 'CYCLONEDDS_URI': '/etc/turtlebot4/cyclonedds_rpi.xml', 'OLDPWD': '/home/turtlebot4/training_code', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1576', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2538', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3f8bfb26b596ae89552f70ef6a3ce5a1', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5820', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/turtlebot4/ros3_ws/install', 'ROBOT_SETUP': '/etc/turtlebot4/setup.bash', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'turtlebot4', 'JETSON_MODULE': 'NVIDIA Jetson Orin NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1423924334849', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'JOURNAL_STREAM': '8:47377', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'ROS_SUPER_CLIENT': 'True', 'USERNAME': 'turtlebot4', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/home/turtlebot4/.local/bin:/usr/local/cuda/bin:/opt/ros/humble/bin:/home/turtlebot4/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2538,unix/ubuntu:/tmp/.ICE-unix/2538', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/etc/turtlebot4/fastdds_discovery_super_client.xml', 'INVOCATION_ID': '47e33557abf745e6b546a5f350f3dfee', 'TURTLEBOT4_DIAGNOSTICS': '1', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ead6f11928.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/turtlebot4/ros3_ws/install/qr_track_alvar:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'ROS_DISCOVERY_SERVER': '127.0.0.1:11811;', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'ROBOT_NAMESPACE': '', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/turtlebot4/training_code/build/path_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3f8bfb26b596ae89552f70ef6a3ce5a1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/turtlebot4/training_code/build/path_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages:/home/turtlebot4/ros3_ws/install/qr_track_alvar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0000'}, 'shell': False}
+[1.506514] (-) TimerEvent: {}
+[1.607010] (-) TimerEvent: {}
+[1.707519] (-) TimerEvent: {}
+[1.808044] (-) TimerEvent: {}
+[1.908556] (-) TimerEvent: {}
+[2.009034] (-) TimerEvent: {}
+[2.046544] (path_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.050684] (path_node) StdoutLine: {'line': b'writing ../../build/path_node/path_node.egg-info/PKG-INFO\n'}
+[2.051141] (path_node) StdoutLine: {'line': b'writing dependency_links to ../../build/path_node/path_node.egg-info/dependency_links.txt\n'}
+[2.051353] (path_node) StdoutLine: {'line': b'writing entry points to ../../build/path_node/path_node.egg-info/entry_points.txt\n'}
+[2.051568] (path_node) StdoutLine: {'line': b'writing requirements to ../../build/path_node/path_node.egg-info/requires.txt\n'}
+[2.051725] (path_node) StdoutLine: {'line': b'writing top-level names to ../../build/path_node/path_node.egg-info/top_level.txt\n'}
+[2.054282] (path_node) StdoutLine: {'line': b"reading manifest file '../../build/path_node/path_node.egg-info/SOURCES.txt'\n"}
+[2.056050] (path_node) StdoutLine: {'line': b"writing manifest file '../../build/path_node/path_node.egg-info/SOURCES.txt'\n"}
+[2.056475] (path_node) StdoutLine: {'line': b'running build\n'}
+[2.056638] (path_node) StdoutLine: {'line': b'running build_py\n'}
+[2.059088] (path_node) StdoutLine: {'line': b'running install\n'}
+[2.059764] (path_node) StdoutLine: {'line': b'running install_lib\n'}
+[2.062654] (path_node) StdoutLine: {'line': b'running install_data\n'}
+[2.063044] (path_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.066460] (path_node) StdoutLine: {'line': b"removing '/home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages/path_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.067180] (path_node) StdoutLine: {'line': b'Copying ../../build/path_node/path_node.egg-info to /home/turtlebot4/training_code/install/path_node/lib/python3.10/site-packages/path_node-0.0.0-py3.10.egg-info\n'}
+[2.069201] (path_node) StdoutLine: {'line': b'running install_scripts\n'}
+[2.109158] (-) TimerEvent: {}
+[2.111231] (path_node) StdoutLine: {'line': b'Installing path_node script to /home/turtlebot4/training_code/install/path_node/lib/path_node\n'}
+[2.112033] (path_node) StdoutLine: {'line': b"writing list of installed files to '/home/turtlebot4/training_code/build/path_node/install.log'\n"}
+[2.181731] (path_node) CommandEnded: {'returncode': 0}
+[2.203541] (path_node) JobEnded: {'identifier': 'path_node', 'rc': 0}
+[2.204867] (-) EventReactorShutdown: {}

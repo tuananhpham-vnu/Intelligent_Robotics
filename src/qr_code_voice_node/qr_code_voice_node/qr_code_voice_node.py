@@ -17,10 +17,16 @@ class QrCodeVoiceNode(Node):
         self.qrcode_data = None
         self.declare_parameter(
             'voice_dir', '/home/turtlebot4/training_code/voice')
-        self.voice_dir = self.get_parameter('voice_dir').value
+        self.declare_parameter('auto_play_on_scan', True)
+        self.voice_dir = str(self.get_parameter('voice_dir').value)
+        self.auto_play_on_scan = bool(
+            self.get_parameter('auto_play_on_scan').value)
         self.last_played_num = None
 
         pygame.mixer.init()
+        if not os.path.isdir(self.voice_dir):
+            self.get_logger().warning(
+                f'Voice directory does not exist: {self.voice_dir}')
 
         self.qrcode_sub = self.create_subscription(
             String,
@@ -36,14 +42,19 @@ class QrCodeVoiceNode(Node):
         )
 
         self.get_logger().info(
-            'QR code voice broadcast node started, listening to /Voice topic')
+            'QR code voice broadcast node started: '
+            f'voice_dir={self.voice_dir}, '
+            f'auto_play_on_scan={self.auto_play_on_scan}')
 
     def qrcode_callback(self, msg):
-        """Store the most recently recognized QR code."""
+        """Store a recognized QR code and optionally play it immediately."""
+        qrcode = msg.data.strip()
         with self._data_lock:
-            self.qrcode_data = msg.data
-        self.get_logger().debug(
-            f'Received QR code data: {self.qrcode_data}')
+            self.qrcode_data = qrcode
+        self.get_logger().info(f'Received QR code data: {qrcode}')
+
+        if self.auto_play_on_scan:
+            self.broadcast_qrcode(qrcode)
 
     def voice_command_callback(self, msg):
         """Play the QR-code voice file when command 1 is received."""
@@ -55,7 +66,12 @@ class QrCodeVoiceNode(Node):
             current_qrcode = self.qrcode_data
             self.qrcode_data = None
 
-        if not current_qrcode or not current_qrcode.strip():
+        self.broadcast_qrcode(current_qrcode)
+
+    def broadcast_qrcode(self, current_qrcode):
+        """Validate a QR payload and play its corresponding MP3 file."""
+
+        if not current_qrcode:
             self.get_logger().info('No valid QR code data')
             return
 
@@ -76,7 +92,7 @@ class QrCodeVoiceNode(Node):
             return
 
         self.last_played_num = num
-        self.get_logger().info(f'Broadcasting QR code: {num}')
+        self.get_logger().info(f'Finished broadcasting QR code: {num}')
 
     def play_voice(self, num):
         """Play the corresponding voice file."""
@@ -84,6 +100,7 @@ class QrCodeVoiceNode(Node):
         if not os.path.exists(file_path):
             raise FileNotFoundError(f'Voice file not found: {file_path}')
 
+        self.get_logger().info(f'Playing voice file: {file_path}')
         pygame.mixer.music.load(file_path)
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():

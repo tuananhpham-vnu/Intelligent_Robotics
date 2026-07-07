@@ -19,7 +19,8 @@ ros2 topic echo /odom
 ros2 topic echo /scan
 
 
-<!--  -->
+<!-- run QR -->
 ros2 run qr_track_alvar qr_track_alvar
 
+<!--  -->
 ./go.sh

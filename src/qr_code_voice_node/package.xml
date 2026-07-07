@@ -3,13 +3,17 @@
 <package format="3">
   <name>qr_code_voice_node</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>QR code voice broadcast node</description>
   <maintainer email="cobala869@gmail.com">turtlebot4</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
-  <depend>msgs</depend>
-  <depend>pygame</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>python3-pygame</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>cmd_vel_publisher</exec_depend>
+  <exec_depend>qr_track_alvar</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

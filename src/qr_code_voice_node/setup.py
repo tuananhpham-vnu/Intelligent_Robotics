@@ -29,8 +29,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'qr_code_voice_node = '
-            'qr_code_voice_node.qr_code_voice_node:main',
+            'qr_code_voice_node = qr_code_voice_node.qr_code_voice_node:main',
         ],
     },
 )

@@ -234,6 +234,7 @@ class PatrolNode(BasicNavigator):
         """
         Determine the next navigation point based on the QR code recognition result
         """
+        print(f'Detect {qr_result}')
         if qr_result == 1:
             self.nav_to_point(wirefram_points[0])
             self.run_voice("1_1")
